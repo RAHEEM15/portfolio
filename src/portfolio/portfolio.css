@@ -1,0 +1,306 @@
+*{ 
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style:  normal;
+
+}
+
+
+@media(min-width:300px)and(max-width:600px) {
+    body{
+        background-color: green;
+    }
+}
+.container-fluid{
+    background-color: rgb(65, 143, 107);
+    position: fixed;
+    margin-top: 40px;
+    z-index: 1;
+    
+}
+.navbar-brand{
+    position: relative;
+    font-size: 35px;
+    color: white;
+    /* text-decoration: none;     */
+}
+
+
+.nav-link{
+    font-size: 20px;
+    color: white;
+}
+
+#home{
+    display: flex;
+    justify-content:space-around;
+    background-color:rgb(250, 245, 245);
+    height: 500px;
+    margin-top: 50px;
+}
+.home{
+    display: flex;
+    align-items: center;
+    
+}
+
+.raheem{
+ 
+    position: relative;
+    color:  rgb(65, 143, 107);
+    cursor: pointer;
+}
+
+.raheem :hover{
+    color: black;
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+}
+.img2{
+    height: 50px;
+    width: px;
+}
+.img3{
+    height: 50px;
+    width: px;
+}
+
+.downloadcv{
+    /* width: 100px; */
+    background-color: rgb(65, 143, 107);
+    color: white ;
+    font-weight: 700;
+    border-radius: 10px;
+    border-color: white;
+    /* box-shadow: 100px; */
+}
+#about{
+    display: flex;
+    justify-content:space-around;
+    background-color:rgb(250, 245, 245);   
+    height: 500px;
+}
+
+.abt1{
+    /* position: relative;
+    top: 10px;     */
+    background-color: rgb(65, 143, 107) ;
+    height: 100%;
+    width: 40%;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+
+
+.abt2{
+    /* position: relative;
+    top: 10px; */
+    background-color: rgb(65, 143, 107) ;
+    height: 100%;
+    width: 40%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.img4{
+    position: relative;
+    left: 23%;
+    top: 40px;
+    border-radius: 20px;
+    height: px;
+    width: 300px;
+}
+
+.araheem{
+    position: relative;
+    color: white;
+    font-size: xxx-large;
+    top: 70px;
+    left: 50px;
+}
+.front{
+    color: white;
+    position: relative;
+    top: 45px;
+    left: 130px;
+}
+
+.skill{
+    display: flex;
+    justify-content: center;
+    font-size: xxx-large;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#skills{
+    display: flex;
+    justify-content:space-around;
+    background-color:rgb(250, 245, 245);   
+    height: 500px;
+}
+
+.sk1{
+    /* position: relative;
+    top: 10px;     */
+    background-color: rgb(65, 143, 107) ;
+    height: 90%;
+    width: 40%;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+.sk2{
+    /* position: relative;
+    top: 10px;     */
+    background-color: rgb(65, 143, 107) ;
+    height: 90%;
+    width: 40%;
+    margin: 10px;
+    border-radius: 20px;
+    padding:20px;
+}
+
+
+#project{
+    display: flex;
+    /* justify-content:space-between; */
+    background-color:rgb(250, 245, 245);   
+    height: 500px;
+}
+.pr1{
+    /* position: relative;
+    top: 10px;     */
+    background-color: rgb(65, 143, 107) ;
+    height: 90%;
+    width: 40%;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    /* display: flex; */
+    
+}
+.pr2{
+    /* position: relative;
+    top: 10px;     */
+    background-color: rgb(65, 143, 107) ;
+    height: 90%;
+    width: 40%;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+
+.pr3{
+    /* position: relative;
+    top: 10px;     */
+    background-color: rgb(65, 143, 107) ;
+    height: 90%;
+    width: 40%;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    /* display: flex; */
+    
+}
+
+#contact{
+    /* display: flex;
+    justify-content:space-around; */
+    background-color:rgb(250, 245, 245);   
+    height: 500px;
+}
+
+#icons {
+    display: flex;
+    justify-content:space-around;
+    
+    
+}
+
+.con{
+    margin-top: 50px;
+}
+
+#forms{
+    display: flex;
+    align-items: center;
+}
+.form{
+    background-color:rgb(65, 143, 107);
+    width: 50%;
+    height: 70%;
+   border-radius: 20px;
+   position: relative;
+   left: 25%;
+   /* display: flex; */
+   justify-content: center;
+}
+form{
+    position: relative;
+    left: 150px;
+ padding-top: 60px;
+ display: flex;
+ /* justify-content: space-between; */
+}
+
+input{
+    width: 120%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.overlay{
+    background-color: black;
+    opacity: 20px;
+    width: 80%;
+    height: 80%;
+    z-index: index 3;;
+}
+
+.img5{
+    margin-bottom: 10px;
+    width: 15%;
+}
+
+
+.img6{
+    margin-bottom: 10px;
+    width: 10%;
+}
+
+.img7{
+    width: 50px;
+}
+
+.btn{
+    position: relative;
+    left: 44%;
+    top: 30px;
+    background-color: white;
+}
+
+.img8{
+    width: 100%;
+}
+.instaclonehead{
+    color: white;
+    position: relative;
+    left: 60px;
+}
+.ecommerce{
+    color: white;
+    position: relative;
+    left: 20px;
+}

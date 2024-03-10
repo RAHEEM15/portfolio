@@ -1,0 +1,25 @@
+.multiplication-table {
+    text-align: center;
+    margin-top: 20px;
+    color:black;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+
+  }
+  
+  td {
+    border: 1px solid red;
+    padding: 8px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  input {
+    padding: 10px;
+  }
+  
