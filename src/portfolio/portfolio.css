@@ -70,7 +70,8 @@
 }
 
 .downloadcv{
-    /* width: 100px; */
+    width: 100px;
+    
     background-color: rgb(65, 143, 107);
     color: white ;
     font-weight: 700;
@@ -173,7 +174,7 @@
 
 #project{
     display: flex;
-    /* justify-content:space-between; */
+    justify-content:space-around;
     background-color:rgb(250, 245, 245);   
     height: 500px;
 }
@@ -201,18 +202,18 @@
     
 }
 
-.pr3{
+/* .pr3{ */
     /* position: relative;
     top: 10px;     */
-    background-color: rgb(65, 143, 107) ;
-    height: 90%;
-    width: 40%;
-    margin: 10px;
-    border-radius: 20px;
-    padding: 20px;
+    /* background-color: rgb(65, 143, 107) ; */
+    /* height: 90%; */
+    /* width: 40%; */
+    /* margin: 10px; */
+    /* border-radius: 20px; */
+    /* padding: 20px; */
     /* display: flex; */
     
-}
+/* } */
 
 #contact{
     /* display: flex;
@@ -270,8 +271,8 @@ input{
 }
 
 .img5{
-    margin-bottom: 10px;
-    width: 15%;
+    margin-bottom: 15px;
+    width: 17%;
 }
 
 
@@ -303,4 +304,8 @@ input{
     color: white;
     position: relative;
     left: 20px;
+}
+
+.mail{
+    font-size: x-large;
 }

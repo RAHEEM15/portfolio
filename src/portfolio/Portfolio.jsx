@@ -88,18 +88,16 @@ function Portfolio() {
                     <h1>Hello, I'm <span className='raheem'>Raheem Basha</span><br></br>
                         and I am a passionate<br></br>
                         <span className='raheem'>Front End Developer</span><br></br>
-                        <a href='https://www.linkedin.com/in/raheem-basha/'><img className='img2' src={img2}></img></a>
-                        <a href='https://github.com/RAHEEM15'><img className='img3' src={img3}></img></a><br/>
+                        <a href='https://www.linkedin.com/in/raheem-basha/' target='blank'><img className='img2' src={img2}></img></a>
+                        <a href='https://github.com/RAHEEM15' target='blank'><img className='img3' src={img3}></img></a><br/>
                         
                             
                     </h1>
-                    <a className='downloadcv'
-                    href='https://drive.google.com/file/d/1PssLGh_9lucwq0t5wJc5vH65WOtvXnuy/view?usp=sharing'
-                    type='button'
-                    target='blank'>DownLOAD cv
-                    </a>
+                    
 
-                    <button  className='downloadcv'>Cirtificate</button>
+                    <a href='https://drive.google.com/file/d/1PssLGh_9lucwq0t5wJc5vH65WOtvXnuy/view?usp=sharing'
+                    target='blank'>
+                    <button  className='downloadcv'>Resume</button></a>
                     </div>
                     
                 </div>
@@ -156,7 +154,7 @@ function Portfolio() {
                 <h5 className='skills' >Below is a quick overview of my main technical skill sets and tools I use</h5>
                 <div id='skills'>
                 <div className='sk1'>
-                    <h3 className='ski1'>Front-End Technology</h3><br></br>
+                    <h3 className='ski1'>Front-End Technology :</h3><br></br>
                     <h5 className='ski2'>
                         <ul>
                             <li>HTML</li>
@@ -169,7 +167,24 @@ function Portfolio() {
 
                 </div>
                 <div className='sk2'>
-                <h3 className='ski1'>Front-End Technology</h3><br></br>
+                <h3 className='ski1'>Tools Known :</h3><br></br>
+                <h5 className='ski2'>
+                        <ul>
+                            <li>Visual studio code</li>
+                            <li>Github</li>
+                            
+                        </ul>
+                    </h5>
+
+                    <h3 className='ski1'>Designing Software :</h3><br></br>
+                <h5 className='ski2'>
+                        <ul>
+                            <li>Adobe photoshop</li>
+                            <li>Page Maker</li>
+                            <li>Coreldraw</li>
+                            
+                        </ul>
+                    </h5>
                 </div>
                 </div>
             </div>
@@ -187,7 +202,8 @@ function Portfolio() {
 
                 <br/>
                 <h4>Instgram Home page Design (Instaclone) using HTML, CSS</h4>
-                
+                <a href='https://github.com/RAHEEM15/Instagram-clone-design/blob/main/Instgram%20home%20page.html' target='blank'><button>Source Code</button></a>
+                <a href='https://github.com/RAHEEM15/Instagram-clone-design/blob/main/Instgram%20home%20page.html' target='blank'><button>Live Demo</button></a>
             </div>
             <div className='pr2'>
                 <img className='img8' src={ecomimg} ></img>
@@ -199,11 +215,11 @@ function Portfolio() {
                 <br/>
                 <h4>Ecommerce Home Page Design (Ecommerce Website Design) using HTML, CSS</h4>
                 <br/>
-                <button>source</button>                
+                                
             </div>
-            <div className='pr3'>
+            {/* <div className='pr3'>
 
-            </div>
+            </div> */}
             </div>
             </div>
             </div>
@@ -214,9 +230,9 @@ function Portfolio() {
             <h1 className='skill'>Contact</h1>
             <div id='contact'>
                 <div id='icons'>
-                    <h3 className='con'><img className='img5' src={img5}></img>Gmail</h3>
-                    <h3 className='con'><img className='img6' src={img6}></img>Contact Number</h3>
-                    <h3 className='con'> <img className='img7' src={img2}></img> Linked in</h3>
+                    <h3 className='con'><a href='https://mail.google.com/mail/u/0/#inbox' target='blank'><img className='img5' src={img5}></img>Gmail </a></h3>
+                    <h3 className='con'><a href='6383759823' target='blank'><img className='img6' src={img6}></img>Contact Number</a></h3>
+                    <h3 className='con'><a href='https://www.linkedin.com/in/raheem-basha/' target='blank'> <img className='img7' src={img2}></img> Linked in</a></h3>
                     {/* <h3 className='con'>Instagram</h3> */}
                 </div>
                 <br/>
